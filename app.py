@@ -8,6 +8,8 @@ bebida_suco = Bebida("suco de maça", 6.00, "grande")
 bebida_suco.aplicar_desconto()
 prato_paozinho = Prato("Paozinho", 2.00, "Melhor pão da cidade")
 prato_paozinho.aplicar_desconto()
+
+
 restaurante_praca.adicionar_no_cardapio(bebida_suco)
 restaurante_praca.adicionar_no_cardapio(prato_paozinho)
 
